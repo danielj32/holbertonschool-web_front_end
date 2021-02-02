@@ -48,6 +48,10 @@ html {
   a:hover {
     text-decoration: underline;
   }
+
+  a:active {
+    background-color: var(--color-light-grey);
+  }
   
   .visually-hidden {
     display: none;
