@@ -147,7 +147,7 @@ template {
 }
 /* @import "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"; */
 
-*b,
+*,
 *:before,
 *:after {
   box-sizing: border-box;
