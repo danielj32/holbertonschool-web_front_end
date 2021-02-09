@@ -3,6 +3,6 @@ $colored: #FF0000;
 $colorgreen: #00ff00;
 button {
     color: $colored;
-    :hover {
+    &:hover {
         color: $colorgreen; }
     }
