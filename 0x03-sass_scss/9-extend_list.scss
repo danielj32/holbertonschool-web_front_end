@@ -1,0 +1,20 @@
+/* Extended */
+$txtcolorgreen: #00FF00;
+$txtcolored: #FF0000;
+%sizefont {
+    font-size: 12px;
+}
+
+.info {
+    @extend %sizefont;
+}
+
+.sucess {
+    @extend %sizefont;
+    color: $txtcolorgreen;
+}
+
+.warning {
+    @extend %sizefont;
+    color: $txtcolored;
+}
