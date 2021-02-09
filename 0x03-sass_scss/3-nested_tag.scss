@@ -1,0 +1,11 @@
+/* The nested class */
+$notpx: 0px;
+$thenpx: 10px;
+
+body {
+    margin: $notpx;
+    padding: $notpx;
+    p {
+        margin: $thenpx;
+    }
+}
