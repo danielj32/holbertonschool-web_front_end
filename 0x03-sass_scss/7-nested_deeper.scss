@@ -1,0 +1,14 @@
+/* Nested and nested again */
+$fsize1: 14px;
+$fsize2: 16px;
+$fsize3: 12px;
+
+body {
+    font-size: $fsize1;
+    h1 {
+        font-size: $fsize2;
+        &.smaller {
+            font-size: $fsize3;
+        }
+    }
+}
