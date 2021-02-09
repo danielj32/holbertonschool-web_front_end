@@ -1,0 +1,13 @@
+/*Text Color Variable */
+$color: #3D3D3D;
+$Bcolor: #6D6D6D;
+body {
+    color: $color;
+    background-color: $Bcolor;
+}
+p {
+    color: $color;
+}
+h2 {
+    background-color: $Bcolor;
+}
