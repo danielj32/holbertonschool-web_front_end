@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+        <script>
+            function setCookies() {
+                document.cookie = `firstname =${document.getElementById('firstname').value}`;
+                document.cookie = `email =${document.getElementById('email').value}`;
+            }
+            function showCookies () {
+                var dCookies = `Cookies: ${decodeURIComponent(document.cookie)}`;
+                var p = document.createElement('p');
+                var newNode = document.createTextNode(dCookies);
+                p.appendChild(newNode);
+                document.body.appendChild(p);
+            }
+        </script>
+        <title> </title>
+        <body>
+            <h1>
+                Login to the website
+            </h1>
+            <form>
+                <input type="text"  id="firstname" placeholder="Firstname">
+                <input type="email"  id="email" placeholder="Email">
+                <button onclick="setCookies()">Log me in</button>
+            </form>
+            <h1>
+                Cookies
+            </h1>
+            <button onclick="showCookies()">Show the Cookies</button>
+        </body>
+    </head>
+</html>
